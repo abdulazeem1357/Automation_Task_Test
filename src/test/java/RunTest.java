@@ -7,9 +7,7 @@ import org.junit.runner.RunWith;
         features = {"src/test/resources"},
         glue = {"step_defs"},
         monochrome = true,
-        plugin = {"pretty", "html:target/html-test-output.html",
-                "json:target/cucumber.json",
-                "junit:target/cucumber.xml" }
+        plugin = {"pretty", "html:target/html-test-output.html" }
 )
 
 public class RunTest {
